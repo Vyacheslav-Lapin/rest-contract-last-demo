@@ -1,4 +1,5 @@
 package ru.vlapin.demo.restcontractlastdemo.model;
+
 import static lombok.AccessLevel.PRIVATE;
 
 import java.util.UUID;
