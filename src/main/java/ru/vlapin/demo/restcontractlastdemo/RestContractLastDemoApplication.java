@@ -5,10 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import ru.vlapin.demo.restcontractlastdemo.model.JavaConfigBasedSetterPropertiesPlaceholderExample;
 
+@EnableFeignClients
 @SpringBootApplication
 @ConfigurationPropertiesScan
 @ComponentScan(includeFilters = @ComponentScan.Filter(Aspect.class))
