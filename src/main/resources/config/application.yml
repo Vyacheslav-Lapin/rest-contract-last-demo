@@ -1,0 +1,9 @@
+mail:
+  credentials:
+    authMethod: basic
+    username: user
+    password: qwerty
+
+#my-properties:
+#  port: 8091
+#  host: myhost
